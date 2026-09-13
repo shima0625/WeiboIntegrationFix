@@ -24,4 +24,4 @@ install -m 0755 "$DYLIB" "$STAGE/Library/MobileSubstrate/DynamicLibraries/WeiboI
 install -m 0644 WeiboIntegrationFix.plist "$STAGE/Library/MobileSubstrate/DynamicLibraries/WeiboIntegrationFix.plist"
 
 mkdir -p packages
-dpkg-deb --root-owner-group --build "$STAGE" "packages/com.shima.weibointegrationfix_0.1.0_iphoneos-arm.deb"
+dpkg-deb -Zgzip --root-owner-group --build "$STAGE" "packages/com.shima.weibointegrationfix_0.1.0_iphoneos-arm.deb"
