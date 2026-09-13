@@ -1,0 +1,7 @@
+.theos/
+packages/
+obj/
+*.dylib
+*.log
+*.sqlite*
+*.plist.disabled

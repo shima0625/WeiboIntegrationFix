@@ -1,0 +1,9 @@
+Package: com.shima.weibointegrationfix
+Name: WeiboIntegrationFix
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Restores the built-in iOS 6 Weibo integration without a computer or LAN bridge.
+Depends: mobilesubstrate
+Author: shima
+Maintainer: shima
+Section: Tweaks
